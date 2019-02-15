@@ -1,0 +1,12 @@
+pwd
+git clone https://github.com/chayansroy/AngularPrime.git
+cd AngularPrime
+git checkout -b feature/primeng
+git status
+git pull origin feature/primeng
+git add
+git commit -a -m "Initial Commit"
+gt push origin feature/primeng
+
+To see all commits that you have locally but not upstream with
+git log @{u}..
